@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="./pdfStyle.css" rel="stylesheet"/>
+</head>
+<body>
+   
+    <div class="main-conatiner mx-auto">
+        
+    <div class="col-md-12 ">   
+        <div class="row ">
+               
+               <div style="background-color: orangered;" class=" receipt-main    col-xs-10 col-sm-10 col-md-12 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
+                  
+                <header >
+
+                    <div class="first-img">
+                        <img src="./nn-logo.png" alt="">
+        
+                    </div>
+        
+                  <div class="heading">
+                    <h1>पथ विक्रेता / ठेला चालक सर्वे - 2023
+                        <br>
+                        इंदौर नगर निगम पालिका</h1>
+                    <img src="./parashad.png" alt="">
+                  </div>
+                    <div class="second-img">
+                       
+                        <img src="./image_2023_06_22T09_05_11_529Z.png" alt="">
+                    </div>
+        
+                   
+                </header>
+               
+                <div class="row mx-auto pt-2 " style="background-color: white;">
+                    
+                    <div class="receipt-header d-flex justify-content-between">
+                        <div class="col-xs-6 col-sm-6 col-md-8">
+                            <div class="receipt-left" style="object-fit: cover;">
+                                <img class="img-responsive" alt="iamgurdeeposahan" id="profileImg" style="width: 100px; ">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6" style="object-fit: cover;">
+                         <div class="receipt-left ">
+                             <img class="img-responsive" alt="iamgurdeeposahan" id="QR" style="width: 100px; ">
+                         </div>
+                     </div>
+                       
+                    </div>
+                  </div>
+                
+                  <div class="row">
+                    
+                   <div class="col-md-12">
+                    <table class="table ">
+                        <!-- <thead>
+                         <tr>
+                               
+                         </tr>
+                         <tr>
+                            
+                         </tr>
+                           
+                        </thead> -->
+                        <div >
+                            <tbody>
+                                <tr >
+                                    <td class="col-md-6">नाम</td>
+                                    <td class="col-md-6" id="getname"><i class="fa fa-inr"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-9">जाति</td>
+                                    <td class="col-md-3" id="getjati"><i class="fa fa-inr"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-9">स्थाई पता</td>
+                                    <td class="col-md-3" id="curAddress"><i class="fa fa-inr"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-9">वर्तमान पता</td>
+                                    <td class="col-md-3" id="address"><i class="fa fa-inr"></i></td>
+                                </tr>
+                                <tr>
+                                 <td class="col-md-9"> शिक्षा</td>
+                                 <td class="col-md-3" id="shiksha"><i class="fa fa-inr"></i></td>
+                             </tr>
+                             <tr>
+                                 <td class="col-md-9"> मोबाइल नंबर</td>
+                                 <td class="col-md-3" id="contact"><i class="fa fa-inr"></i></td>
+                             </tr>
+                             <tr>
+                                 <td class="col-md-9"> व्हाट्सएप नंबर </td>
+                                 <td class="col-md-3" id="wsContact"><i class="fa fa-inr"></i></td>
+                             </tr>
+                             <tr>
+                                 <td class="col-md-9"> आधार कार्ड क्रमाक</td>
+                                 <td class="col-md-3" id="adharid"><i class="fa fa-inr"></i></td>
+                             </tr>
+                             <tr>
+                                 <td class="col-md-9"> समग्र आईडी</td>
+                                 <td class="col-md-3" id="samgra"><i class="fa fa-inr"></i></td>
+                             </tr>
+                             <tr>
+                                 <td class="col-md-9"> परिवार समग्र आईडी</td>
+                                 <td class="col-md-3" id="parsamgra"><i class="fa fa-inr"></i></td>
+                             </tr>
+                             <tr>
+                                 <td class="col-md-9"> आयुष्मान कार्ड नंबर</td>
+                                 <td class="col-md-3" id="ayushman"><i class="fa fa-inr"></i></td>
+                             </tr>
+    
+    
+                             <tr>
+                                <td class="col-md-9"> ठेला लगाया जाने का स्थान</td>
+                                <td class="col-md-3" id="thela"><i class="fa fa-inr"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9"> ठेला लगाया जाने का समय</td>
+                                <td class="col-md-3" id="thelaTime"><i class="fa fa-inr"></i></td>
+                            </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-9">कब से व्यापार कर रहे हैं</td>
+                                <td class="col-md-3" id="vyapar"><i class="fa fa-inr"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9"> क्या नगर निगम में पंजीकरण है</td>
+                                <td class="col-md-3" id="registered"><i class="fa fa-inr"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9"> पंजीकरण वर्ष</td>
+                                <td class="col-md-3" id="regYear"><i class="fa fa-inr"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9"> किसी शासकीय योजना के अंतरगत लोन ले रखा है</td>
+                                <td class="col-md-3" id="loan"><i class="fa fa-inr" ></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9">लोन योजना</td>
+                                <td class="col-md-3" id="loanYojna"><i class="fa fa-inr" ></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9"> परिवार में कुल सदस्यो की संख्या</td>
+                                <td class="col-md-3" id="allMember"><i  ></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9"> परिवार में कुल कमाने वाले सदस्यों की संख्या</td>
+                                <td class="col-md-3" id="earning-member"><i ></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9">क्या व्यवसाय हेतु शासकीय योजना का लाभ लेना चाहते हैं</td>
+                                <td class="col-md-3" id="labh"><i class="fa fa-inr"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9"> क्या नगर निगम द्वारा कोई स्थान आवंटित किया गया है</td>
+                                <td class="col-md-3" id="place"><i class="fa fa-inr"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9">आवंटित स्थान</td>
+                                <td class="col-md-3" id="placeGiven"><i class="fa fa-inr"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9">वाहन</td>
+                                <td class="col-md-3" id="vahan"><i class="fa fa-inr"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9">मकान</td>
+                                <td class="col-md-3" id="makan"><i class="fa fa-inr"></i></td>
+                            </tr>
+                               
+                              
+                            </tbody>
+                        </table>
+                        </div>
+                  </div>
+                  </div>
+                   
+                   
+                   <div class="save-btn">
+                    <button class="save" onclick=" generatePDF()">Save PDF</button>
+                   </div>
+               </div>    
+           </div>
+           
+       </div>
+    </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script>
+        
+
+   
+    let userData = JSON.parse(localStorage.getItem('user'))
+    let thelaTime = userData[0].thela.thelaTimeAM + "AM" + "-" + userData[0].thela.thelaTimePM + "PM"
+    const totalMember = parseInt(userData[0].par1to17) +parseInt(userData[0].par17to60) + parseInt(userData[0].par60)
+    
+    document.getElementById('getname').innerText=userData[0].name
+    document.getElementById('getjati').innerText=userData[0].jati
+    document.getElementById('curAddress').innerText=userData[0].currentAdd
+    document.getElementById('address').innerText=userData[0].address
+    document.getElementById('shiksha').innerText=userData[0].shiksha
+    document.getElementById('contact').innerText=userData[0].contact
+    document.getElementById('wsContact').innerText=userData[0].wsContact
+    document.getElementById('adharid').innerText=userData[0].adharNo
+    document.getElementById('samgra').innerText=userData[0].samagrId
+    document.getElementById('parsamgra').innerText=userData[0].parivarSamgr
+    document.getElementById('ayushman').innerText=userData[0].ayushman
+    document.getElementById('thela').innerText=userData[0].thela.thela
+    document.getElementById('thelaTime').innerText=thelaTime
+    document.getElementById('vyapar').innerText=userData[0].vyapar
+    document.getElementById('registered').innerText=userData[0].registered.registeredDone
+    document.getElementById('regYear').innerText=userData[0].registered.resYear
+    document.getElementById('loan').innerText=userData[0].loan.loanTaken
+    document.getElementById('loanYojna').innerText=userData[0].loan.loanYojan
+    document.getElementById('allMember').innerText=totalMember
+    document.getElementById('earning-member').innerText=userData[0].earningMember
+    document.getElementById('labh').innerText=userData[0].labh
+    document.getElementById('place').innerText=userData[0].place.place
+    document.getElementById('placeGiven').innerText=userData[0].place.placeName
+    document.getElementById('vahan').innerText=userData[0].vahan
+    document.getElementById('makan').innerText=userData[0].House
+    
+    const qr = localStorage.getItem('qr')
+    let QR = document.getElementById('QR')
+    QR.setAttribute('src',qr)
+
+    const profile = localStorage.getItem('userImage')
+    let profileImg = document.getElementById('profileImg')
+    profileImg.setAttribute('src',profile)
+   const generatePDF =()=>{
+   window.print()
+}
+      </script>
+    </body>
+</html>
+

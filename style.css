@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&family=Anuphan&family=Baloo+2:wght@500;600&family=Dancing+Script:wght@400;500&family=Delicious+Handrawn&family=Dongle&family=Farsan&family=Fasthand&family=Hind&family=Kanit&family=Lato&family=Lobster&family=Mukta&family=Noto+Sans&family=Nunito&family=Nunito+Sans&family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Oswald&family=Poltawski+Nowy&family=Poppins&family=Roboto+Slab&family=Roboto:wght@400;700&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Baloo 2', cursive;
+font-weight: 900;
+font-size: large;
+}
+body{
+    background-color: orangered;
+
+}
+.main-container{
+    max-width: 100vw;
+    height: auto;
+  
+
+
+
+}
+header{
+    max-width: 100%;
+    height: auto;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+
+.first-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   object-fit: cover;    
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+
+}
+.second-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-img img{
+    width: 180px;
+    object-fit: cover;
+}
+.first-img img{
+    width: 100px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.heading img{
+    width: 100px;
+
+}
+.form-container{
+    width: 100%;
+    padding: 0px 10px;
+
+  
+   
+}
+
+.form-section{
+    max-width:  100%;
+    /* background-color: white; */
+    padding-top: 20px;
+    padding-inline: 14px;
+    background: url(./raj.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.parent{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first-child{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.last-child{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.child-one{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.child-one span{
+    width: 50%;
+}
+.child-one span input{
+    width: 90%;
+    height: 30px;
+}
+.child-one span select{
+    width: 90%;
+    height: 30px;
+}
+.child-two{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.photo{
+    width: 14vw;
+    height: 14vw;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pic{
+    width: 11vw;
+    height: 11vw;
+    
+}
+.photo label{
+    font-size: 1.2vw;
+}
+#photoLabel:hover{
+    color: rgb(7, 84, 7);
+    text-decoration: underline;
+} 
+.userImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.child-two span{
+    width: 100%;
+}
+.child-two span input{
+    width: 92.5%;
+    height: 30px;
+}
+.child-three{
+    width: 100%;
+    margin-top: 20px;
+}
+.child-three span{
+    width: 100%;
+}
+.child-three span input{
+    width: 91.1%;
+    height: 30px;
+}
+
+.all-in-one{
+    max-width:  100%;
+
+}
+
+.shiksha{
+    width: 100%;
+    margin-top: 20px;
+}
+.shiksha span{
+    width: 100%;
+}
+
+.shiksha span select{
+    width: 90%;
+    height: 30px;
+}
+.mobile{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.contact{
+    width: 50%;
+}
+.contact span{
+    width: 50%;
+}
+.contact span input{
+    width: 78%;
+  
+    height: 30px;
+}
+
+.ws-contact{
+    width: 50%;
+}
+.ws-contact span{
+    width: 50%;
+}
+.ws-contact span input{
+    width: 78%;
+    height: 30px;
+}
+.adhar{
+    width: 100%;
+    margin-top: 20px;
+}
+.samgra{
+    width: 100%;
+    margin-top: 20px;
+}
+.privar-samagra{
+    width: 100%;
+    margin-top: 20px;
+}
+.ayushman{
+    width: 100%;
+    margin-top: 20px;
+}
+.adhar span{
+    width: 100%;
+}
+
+.samgra span{
+    width: 100%;
+}
+.privar-samagra span {
+    width: 100%;
+}
+.ayushman span{
+    width: 100%;
+}
+.adhar span input{
+    width: 84%;
+    height: 30px;
+}
+
+.samgra span input{
+    width: 87%;
+    height: 30px;
+   
+}
+
+.privar-samagra span input{
+    width: 83.5%;
+    height: 30px;
+}
+
+.ayushman span input{
+    width: 84%;
+    height: 30px;
+}
+
+.thela{
+    width: 100%;
+    margin-top: 20px;
+}
+.thela span{
+    width: 100%;
+}
+.thela span select{
+    width: 40%;
+    height: 30px;
+}
+.thela span input{
+    width: 81%;
+    height: 30px;
+}
+.vyapar{
+    width: 100%;
+    margin-top: 20px;
+}
+.vyapar span{
+    width: 100%;
+}
+.vyapar span input{
+    width: 82.3%;
+    height: 30px;
+}
+
+.register{
+    width: 100%;
+    margin-top: 20px;
+}
+.register span{
+    width: 100%;
+}
+.register span select{
+    width: 72.8%;
+    height: 30px;
+}
+#resYear{
+    /* visibility: hidden; */
+}
+.loan{
+    width: 100%;
+    margin-top: 20px;
+}
+.loan span{
+    width: 100%;
+}
+.loan span select{
+    width: 63.5%;
+    height: 30px;
+}
+
+
+.member{
+    width: 100%;
+    margin-top: 20px;
+}
+.member span{
+    width: 100%;
+}
+
+.member span select{
+    width: 19.5%;
+    height: 30px;
+}
+
+.earning-member{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.earning-member span{
+    width: 100%;
+}
+.earning-member span select{
+    width: 73.5%;
+    height: 30px;
+}
+
+.labh{
+    width: 100%;
+    margin-top: 20px; 
+}
+
+.labh span{
+    width: 100%;
+}
+.labh span select{
+    width: 79%;
+    height: 30px;
+}
+
+
+.place{
+    width: 100%;
+    margin-top: 20px;
+}
+.place span{
+    width: 100%;
+}
+
+.place span {
+    width: 100%;
+}
+#placeName{
+    width: 30vw;
+}
+
+.vahan{
+    margin-top: 20px;
+}
+
+.makan{
+    margin-top: 20px;
+}
+
+
+
+
+.button-section{
+   padding-block: 30px;
+   padding-inline: 10%;
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+}
+.button-section button{
+    color: white;
+   font-size: 1.5vw;
+   border: none;
+   border-radius: 5px;
+   padding-block: 20px;
+   padding-inline: 30px;
+}
+.pdf-btn{
+    color: white;
+   font-size: 1.5vw;
+   border: none;
+   border-radius: 5px;
+   padding-block: 20px;
+   padding-inline: 30px;    
+}
+#qr-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+    padding-inline: 20px;
+    background-color: white;
+}
+.qr{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.handleLoan{
+  }
+/* responsiveness */
+@media (max-width : 1164px){
+    .member span select{
+        width:15%;
+    }
+    .member{
+        /* margin-top: -20px; */
+    }
+}
+@media (max-width : 1120px){
+    .loan{
+        /* margin-top: -20px; */
+    }
+  
+}
+@media (max-width:992px) {
+    .first-img img{
+        width: 80px;
+        height: 80px;
+    }
+    .heading img{
+        width: 80px;
+    }
+    .second-img img{
+        width: 120px;
+        height: 90px;
+        object-fit: cover;
+    }
+    .member span select{
+        width:10%!important;
+    }
+    .qr{
+        width: 150px;
+        height: 150px;
+    }
+    .thela span input{
+        width: 78%;
+    }
+    .thela span select{
+       width: 38%;
+    }
+   }
+   
+   @media (max-width:768px) {
+    .first-img img{
+        width: 60px;
+        height: 60px;
+    }
+    .heading img{
+        width: 60px;
+    }
+    .second-img img{
+        width:90px;
+        object-fit: cover;
+    }
+    .photo{
+        width: 19vw;
+        height: 19vw;
+
+    }
+   
+    .member span select{
+        width:8%!important;
+    }
+   }
+   
+   @media (max-width:576px) {
+    *{
+        font-size: 14px;
+    }
+    .first-img img{
+        width: 60px;
+        height: 60px;
+    }
+    .heading h1{
+        font-size: 3vw;
+    }
+    .heading img{
+        width: 60px;
+        height: 60px;
+    }
+    .second-img img{
+        width: 100px;
+        object-fit: cover;
+    }
+    .pdf-btn ,.button-section button {
+       padding-block: 20px;
+       padding-inline: 14px;
+       font-size: 3vw;
+    }
+    .button-section{
+        
+        padding-inline: 5%;
+     }
+    .photo{
+        width: 18vw;
+        height: 18vw;
+        
+    }
+    .photo label{
+        font-size: 2vw;
+    }
+    .inner-labh{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .qr{
+        width: 100px;
+        height: 100px;
+    }
+    .thela span select{
+        width: 30%!important;
+    }
+   }
+   @media (max-width:656px){
+    .inner-member{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .innerThela{
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+    }
+    .thela span input{
+        width:50%;
+    }
+    .thela span select{
+        width: 30%!important;
+    }
+}
+   @media (max-width:448px){
+    .photo{
+        width: 25vw;
+        height: 25vw;
+    }
+    .last-child{
+        width: 30%;
+    }
+    .second-img img{
+        width:100px;
+        object-fit: cover;
+    }
+    .qr{
+        width: 90px;
+        height: 90px;
+    }
+    .pdf-btn ,.button-section button{
+        padding-block: 20px;
+        padding-inline: 12px;
+        font-size: 3.2vw;
+     }
+     .button-section{
+        padding-inline: 1%;
+     }
+     .heading img{
+        width: 60px;
+    }
+    .heading h1{
+        font-size: 3.2vw;
+    }
+
+    .child-one span{
+        width: 92%;
+    }
+    .child-one span input{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 16px;
+    }
+    .child-one span select{
+        width: 100%;
+        height: 30px;
+    }
+    .inner-thela{
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .thela span select{
+        width: 40%!important;
+     }
+   }
+   @media (max-width:375px){
+    .innerLoan{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   }
+   @media (max-width:330px){
+    .last-child{
+        width: 30%;
+    }
+    .photo{
+        width: 25vw!important;
+        height: 25vw;
+    }
+    .pdf-btn ,.button-section button{
+        padding-block: 18px;
+        padding-inline: 3px;
+        font-size: 3.8vw;
+     }
+     .button-section{
+        padding-inline: 1%;
+     }
+     .heading img{
+        width: 60px;
+    }
+    .heading h1{
+        font-size:4vw;
+    }
+    .second-img img{
+        width:80px;
+        height: 80px;
+        object-fit: cover;
+    }
+    .thela span input{
+        width: 90%
+    };
+}
+@media(max-width : 375px){
+   
+}
+@media (max-width : 880px){
+    .innerPlace{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thela span input{
+        width: 70%;
+    }
+    .thela span select{
+        width: 35%;
+    }
+}

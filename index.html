@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.cs"> -->
+</head>
+<body>
+
+    <div class="main-container">
+
+        <header>
+
+            <div class="first-img">
+                <img src="./nn-logo.png" alt="">
+
+            </div>
+
+          <div class="heading">
+            <h1>पथ विक्रेता / ठेला चालक सर्वे - 2023
+                <br>
+                इंदौर नगर निगम पालिका</h1>
+            <img src="./parashad.png" alt="">
+          </div>
+            <div class="second-img">
+               
+                <img src="./image_2023_06_22T09_05_11_529Z.png" alt="">
+            </div>
+
+           
+        </header>
+        <!-- form section -->
+
+<div class="form-container">
+
+    <form action="" class="form-section">
+
+        <div class="parent">
+            <div class="first-child">
+                <div class="child-one">
+                    <span>
+                        <label for="">नाम</label>
+                        <input type="text" id="name1" name="name1">
+                    </span>
+                    <span>
+                        <label for="">जाति</label>
+                        <select name="jati" id="jati">
+                            <option value="">जाति चुनें</option>
+                            <option value="सामान्य">सामान्य </option>
+                            <option value="अजा">अजा </option>
+                            
+                            <option value="पिछड़ा वर्ग">पिछड़ा वर्ग</option>
+                            <option value="अल्पसंख्यक">अल्पसंख्यक</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="child-two">
+                    <span>
+                        <label for="">स्थाई पता</label>
+                        <input type="text" id="currentAdd" name="currentAdd">
+                    </span>
+                </div>
+                <div class="child-three">
+                    <span>
+                        <label for="">वर्तमान पता</label>
+                        <input type="text" name="address" id="address">
+                    </span>
+                </div>
+                
+
+            </div>
+            <div class="last-child">
+              <div  class="photo">
+                <div class="pic">
+                   
+                    <input type="file" id="upload" name="upload" style="display: none;">
+                    
+                     <img  class="userImg" id="userImg"/>
+                    </div>
+                <label for="upload" id="photoLabel">Upload/Click</label>
+              </div>
+
+
+            </div>
+        </div>
+
+        <div class="all-in-one">
+
+            <div class="shiksha">
+                <span>
+                    <label for="">शिक्षा</label>
+                  <select  name="shiksha" id="shiksha">
+                    <option value="">चुनें</option>
+                    <option value="12वी">12वी</option>
+                    <option value="प्रथम वर्ष"> प्रथम वर्ष</option>
+                    <option value="द्वितीय वर्ष">द्वितीय वर्ष </option>
+                    <option value="स्नातक">स्नातक</option>
+                    <option value="स्नातकोत्तर">स्नातकोत्तर</option>
+                  </select>
+                </span>
+            </div>
+
+            <div class="mobile">
+
+                <div class="contact">
+                    <span>
+                        <label for="">मोबाइल नंबर</label>
+                        <input id="contact" name="contact" type="text">
+                    </span>
+
+                </div>
+                <div class="ws-contact">
+                    <span>
+                        <label for=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg> नंबर  &nbsp;
+
+                            
+                          </label>
+                        <input type="text" name="wsContact" id="wsContact">
+                    </span>
+                </div>
+
+                
+
+            </div>
+
+            <div class="adhar">
+                <span>
+                    <label for="">आधार कार्ड क्रमाक</label>
+                    <input id="adharNo" name="adharNo" type="text">
+                </span>
+            </div>
+
+            <div class="samgra">
+                <span>
+                    <label for="">
+                        समग्र आईडी
+                    </label>
+                    <input id="samagrId" name="samagrId" type="text">
+                </span>
+            </div>
+            <div class="privar-samagra">
+                <span>
+                    <label for="">परिवार समग्र आईडी</label>
+                    <input id="parivarSamgr" name="parivarSamgr" type="text">
+                </span>
+            </div>
+
+            <div class="ayushman">
+                <span>
+                    <label for="">आयुष्मान कार्ड नंबर</label>
+                    <input id="ayushman" name="ayushman" type="text">
+                </span>
+            </div>
+
+            <div class="thela">
+                <span>
+                   
+                    <label for="">ठेला लगाया जाने का स्थान </label>
+                    <input id="thela" name="thela" type="text"> 
+                 
+                   
+                    
+                </span>
+            </div>
+            <div class="thela">
+                <span class="inner-thela">
+                   
+                 
+                    <label>ठेला लगाया जाने का समय</label>
+                    <span>
+                        <select id="thelaTimeAM" name="thelaTIme">
+                            <option value="">सुबह का समय</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="11">12</option>
+                        </select> 
+                        <select id="thelaTimePM" name="thelaTIme">
+                            <option value="">दोपहर के बाद का समय</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="11">12</option>
+                        </select> 
+                        
+                    </span>
+                </span>
+            </div>
+
+            <div class="vyapar">
+                <span>
+                    <label for="">कब से व्यापार कर रहे हैं</label>
+                    <input id="vyapar" name="vyapar" type="date">
+                </span>
+            </div>
+
+            <div class="register">
+
+                <span>
+                <span class="innerLoan reg">
+                    <label for="">क्या नगर निगम में पंजीकरण है</label>&nbsp; &nbsp; &nbsp;
+                    <span>
+                      <label for="">हाँ</label>
+                    <input type="radio"  name="registered" id="registered"  value="हाँ" >
+                    <label for="">नहीं</label>
+                    <input type="radio"  name="registered" id="registeredNO" value="नहीं" >
+                    </span>
+                </span>
+                <select name="" id="resYear" >
+                    <option value="">वर्ष चुनें</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+
+                </select>
+
+                </span>
+            </div>
+
+            <div class="loan">
+
+                
+                  <span >
+                   <span class="innerLoan">
+                    <label for="">किसी शासकीय योजना के अंतर्गत लोन ले रखा है</label>&nbsp; &nbsp; &nbsp;
+                   <span>
+                    <label for="">हाँ</label>
+                    <input type="radio"  name="loan" id="loan" class="Loan" value="हाँ">
+                    <label for="">नहीं</label>
+                    <input type="radio" name="loan" id="LoanNo"  class="LoanNo" value="नहीं">
+                   </span>
+                   </span>
+                
+                  <select name="loanYojan" id="loanYojan">
+                    <option value="">योजना चुनें</option>
+                    <option value="आयुषमान भारत योजना">आयुषमान भारत योजना</option>
+                    <option value="अटल पेंशन योजना">अटल पेंशन योजना</option>
+                    <option value="प्रधान मंत्री कौशल विकास योजना">प्रधान मंत्री कौशल विकास योजना</option>
+                    <option value="प्रधान जन धन योजना">प्रधान जन धन योजना</option>
+                    <option value="संपूर्ण ग्रामीण रोजगार योजना">संपूर्ण ग्रामीण रोजगार योजना</option>
+                  </select>
+
+                </span>
+            </div>
+
+            <div class="member">
+
+                <span class="inner-member">
+                    <label for="">परिवार में कुल सदस्यो की संख्या</label>&nbsp; &nbsp; &nbsp;
+                 
+                  
+                    <span >
+                        <label for=""> 1 से 17 वर्ष </label>
+                     <select name="" id="par1-17">
+                        <option value="">चुनें</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    
+
+                </select>
+
+                <label for=""> 17 से 60 वर्ष </label>
+                <select name="" id="par17-60">
+                    <option value="">चुनें</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    
+
+                </select>
+                <label for="">60 वर्ष से अधिक </label>
+                <select name="" id="par60">
+                    <option value="">चुनें</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    
+
+                 </select>
+
+                    </span>
+                  
+                </span>
+            </div>
+
+
+            <div class="earning-member">
+
+                <span>
+                    <label for="">परिवार में कुल कमाने वाले सदस्यों की संख्या</label>
+                 
+                  
+                <select name="" id="earning-member">
+                    <option value="">चुनें</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    
+
+                </select>
+
+                </span>
+           
+
+
+            
+
+
+            <div class="labh">
+
+                <span class="inner-labh">
+                <span class="inner-labh">
+                    <label for="">क्या व्यवसाय हेतु शासकीय योजना का लाभ लेना चाहते हैं</label>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                    <span class="yesNO">
+                       <label for="">हाँ</label>
+                       <input  type="radio" name="labh" id="labh" value="हाँ">
+                       <label for="">नहीं</label>
+                       <input type="radio" name="labh" id="labhNo" value="नहीं">
+                    </span>
+                   
+                </span>
+
+                </span>
+            </div>
+
+
+            
+
+            <div class="place">
+
+                <span>
+                <label for="">क्या नगर निगम द्वारा कोई स्थान आवंटित किया गया है</label>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+                  
+                <span class="innerPlace">
+                    <input  type="radio" name="place" id="place" value="नहीं">
+                  <label for="">नहीं</label>
+                  
+                  &nbsp; &nbsp;
+                 
+                  <span class="inpt">
+                    <input type="radio"id=placeNo name="place" value="हाँ">
+                    <label for=""> हाँ</label>&nbsp;&nbsp;
+                    <label for="">स्थान का नाम
+                    </label>
+                    <input type="text" id="place-name">
+                   
+                   
+                  </span>
+                  </span >
+                
+
+                </span>
+            </div>
+
+            <div class="vahan">
+
+                <span>
+                    <label for="">वाहन</label>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+                 <span class="inner-labh">
+                    <label for="">स्वयं का है</label>&nbsp; &nbsp;
+                    <input type="radio" name="vahan" id="vahan" value="स्वयं का है">
+                    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                    <label for="">किराए का है</label>&nbsp; &nbsp;
+                    <input   type="radio" name="vahan" id="vahanNo" value="किराए का है">
+                 </span>    
+                
+
+                </span>
+            </div>
+
+
+            <div class="makan">
+
+                <span>
+                    <label for="">मकान</label>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                  <span class="inner-labh">
+                    <label for="">स्वयं का है</label>&nbsp; &nbsp;
+                  <input  type="radio" name="House" id="House" value="स्वयं का है">
+                  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                  <label for="">किराए का है</label>&nbsp; &nbsp;
+                  <input  type="radio" name="House" id="HouseNo" value="किराए का है">
+                
+                  </span>
+
+                </span>
+            </div>
+
+
+
+        </div>
+
+
+       </form>
+      
+     <div class="button-section">
+        <button type="button" style="background-color: rgb(47, 5, 64);" id="qr-btn" onclick="generateQR()">Generate QR</button>
+        <!-- <a style="text-decoration: none;color:white;background-color: rgb(14, 69, 14);" href="pdf.html" class="pdf-btn">Generate PDF</a> -->
+       <button type="button" style="background-color: rgb(3, 66, 4);" id="genPDF">Generate PDF</button>
+       <button type="button"  style="background-color: orangered;" onclick="generateId()">Generate ID Card</button>
+     </div>
+</div>
+
+     <div id="qr-container">
+     </div>
+      
+    </div>
+
+
+   <script>
+      async function generateQR(){
+        document.getElementById("qr-btn").disabled = true;
+        const qrButton = document.getElementById('qr-btn')
+        const contact = document.getElementById('contact').value
+        const qrContainer = document.getElementById('qr-container')
+        const adharNo = document.getElementById('adharNo').value
+        res=await fetch( `https://api.qrserver.com/v1/create-qr-code/?size=264x264&data=nature`)
+        let img = document.createElement('img')
+        img.className ='qr'
+        qrContainer.appendChild(img)
+        img.setAttribute('src',res.url)
+        localStorage.setItem('qr',res.url) 
+      }
+   </script>
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
